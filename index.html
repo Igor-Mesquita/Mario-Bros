@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario e Luigi</title>
+    <link rel="shortcut icon" href="img/logo-header.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo-header.png" alt="logo-mario-header">
+        <a href="">
+            Home
+        </a>
+        <a href="">
+            Nossos Serviços
+        </a>
+        <a href="">
+            Fale Conosco
+        </a>
+    </header>
+    <div class="div-principal">
+        <div class="Sobre">
+            <img src="img/logo.png" alt="Logo do Mario Bros" class="logo-mario">
+            <p>Ecanadores Mario e Luigi - Resolvendo seus problemas com estilo!</p>
+            <p>Você já se encontrou com uma situação de emergência com encanamoento? Vazamentos inesperados, canos entupidos ou
+                torneiras que não param de pingar? Não se preocupe porque estamos aqui pra salvar o seu dia! Apresentamos a
+                vocês a dupla de encanadores mais famosos do reino do Cogumelos - Mario e Luigi!</p>
+            <button class="botao-enviar">Entre em Contato</button>
+        </div>
+        
+        <div>
+            <img src="img/mario.png" alt="Mario e Luigi" class="Mario-Luigi">
+        </div>
+
+    </div>
+    
+    <div class="video">
+        <video src="img/video.mp4" autoplay muted loop></video>
+        <div class="mask"></div>
+    </div>
+    <div class="whatsapp">
+        <a href="https://wa.me/5511924658236?text=Quero%20saber%20mais%20sobre%20seus%20servi%C3%A7os" class="link-whatsapp" target="_blank">
+            <img src="img/whatsapp.png" alt="link do whatsapp">
+        </a>
+
+    </div>
+   
+     <form 
+        class="form-orçamento"
+        action="https://formcarry.com/s/jLnf1j7-qAE"
+        method="POST"
+        enctype="multipart/form-data">
+            <label for="nome">Seu Nome</label>
+            <input placeholder="Ex: Roger" id="nome" type="text" name="Nome" required>
+            <label for="tel">Num. Telefone</label>
+            <input placeholder="Ex: (62)9 1234-4567" id="tel" type="tel" name="Telefone" required>
+            <label for="duvida">Diga qual o seu problema</label>
+            <textarea placeholder="Ex: Minha torneira esta pingando..." id="duvida" name="duvida"></textarea>
+            <button class="botao-Contato" type="submit">Entrar em Contato</button>
+    </form>
+    <div class="mask-form"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
